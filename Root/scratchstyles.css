@@ -1,0 +1,16 @@
+
+body{
+    background-color: #a73a646c;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    font-family: 'Comic Sans MS';
+}
+header{
+    font-size: larger;
+    text-align: center;
+}
+a:visited{
+    color: azure;
+}

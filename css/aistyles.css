@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2644c980;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    background-color: #3f4bd481;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.container:hover{
+    color: rgb(226, 226, 238); font-size: large;
+    border: 10px cyan dashed; padding: 100px; width: 900px;
+    font-family: chiller, papyrus;
+    font-weight: 900;
+    
+}
+
+/* Title */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+
+}
+.h1:hover{
+    font-size: 500%;
+}
+
+/* Joke container */
+.joke-container {
+    position: relative;
+}
+
+/* Hide all jokes by default */
+.joke {
+    display: none;
+}
+
+/* Show the selected joke based on the radio button */
+input[type="radio"]:checked + .joke-container #joke-1 {
+    display: block;
+}
+
+#joke2:checked ~ #joke-2 {
+    display: block;
+}
+
+#joke3:checked ~ #joke-3 {
+    display: block;
+}
+
+#joke4:checked ~ #joke-4 {
+    display: block;
+}
+
+#joke5:checked ~ #joke-5 {
+    display: block;
+}
+
+/* Styling for the next joke button */
+.next-button {
+    background-color: #bfd7e2;
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.next-button:hover {
+    background-color: #5fc6cd;
+    color: rgb(23, 23, 187);
+    border: 10px cyan;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}

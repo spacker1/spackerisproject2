@@ -1,0 +1,20 @@
+body{
+    font-family: 'Comic Sans MS';
+}
+.site-heading-lower{
+    font-family: 'Comic Sans Ms';
+}
+.mb-3{
+    font-family: 'Comic Sans Ms';
+}
+a{
+    font-family: 'Comic Sans Ms';
+}
+#mainNav{
+    background-color: rgba(0, 0, 0, 0.554);
+}
+.scratch{
+    background-color: rgb(181, 34, 181);
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
